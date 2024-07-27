@@ -95,8 +95,8 @@ define('NONCE_SALT',       getenv_docker('WORDPRESS_NONCE_SALT',       '838d5687
  */
 $table_prefix = getenv_docker('WORDPRESS_TABLE_PREFIX', 'wp_');
 
-define('WP_HOME', 'https://blumountainart.com');
-define('WP_SITEURL', 'https://blumountainart.com');
+// define('WP_HOME', 'https://blumountainart.com');
+// define('WP_SITEURL', 'https://blumountainart.com');
 
 /**
  * For developers: WordPress debugging mode.
